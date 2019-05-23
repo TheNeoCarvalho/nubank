@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import { StatusBar } from "react-native";
 
-import '~/config/ReactotronConfig';
+import "~/config/ReactotronConfig";
 
-import Routes from '~/routes';
+import Routes from "~/routes";
 
-const App = () => <Routes />;
+const App = () => (
+  <>
+    <Routes />
+  </>
+);
 
 export default App;
